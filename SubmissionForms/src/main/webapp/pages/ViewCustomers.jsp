@@ -9,8 +9,9 @@
 <body>
 	<h1>View Customer Details</h1>
 	<h2>Details Submitted are:</h2>
-	<h4>Customer id: ${cid}</h4>
-	<h4>Customer name: ${cname}</h4>
-	<h4>Customer email: ${cemail}</h4>
+	<form action = "getdetails" method = "post">
+	<input type ="number" name = "cid">
+	<input type ="submit" value="Submit">
+	</form>
 </body>
 </html>
